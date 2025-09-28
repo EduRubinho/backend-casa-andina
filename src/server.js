@@ -5,7 +5,7 @@ dotenv.config();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('✅ Backend Casa Andina funcionando. Usa /api/users para obtener datos.');
+  res.send('✅ Backend funcionando correctamente');
 });
 
 app.listen(PORT, () => {
